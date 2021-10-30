@@ -5,10 +5,17 @@ public static void main(String[] args) {
 	lengthTwo rv = new lengthTwo();
 	double length_one = rv.length_2();
 	double length_two = rv.length_1();
+<<<<<<< HEAD
 	int a = Double.compare(length_one, length_two);
 	if (a == 0) {System.out.println("Length_one and Length_two are equal");}
 	else if (a == 0) {System.out.println("Length_one is greater than Length_two");}
 	else {System.out.println("Length_one is less than Length_two");}
+=======
+		int a = Double.compare(length_one, length_two);
+		if (a == 0) {System.out.println("Length_one and Length_two are equal");}
+		else if (a == 0) {System.out.println("Length_one is greater than Length_two");}
+		else {System.out.println("Length_one is less than Length_two");}
+>>>>>>> main
  }
 }
 	 class lengthOne {
