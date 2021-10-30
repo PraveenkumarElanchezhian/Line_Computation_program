@@ -3,10 +3,12 @@ import java.util.Scanner;
 public class Line_comparison {
 public static void main(String[] args) {
 	lengthTwo rv = new lengthTwo();
-	double first_length = rv.length_2();
-	double second_length = rv.length_1();
-	if (first_length == second_length) {System.out.println("Two lengths are equal");}
-	else {System.out.println("Two lengths are not equal");}
+	double length_one = rv.length_2();
+	double length_two = rv.length_1();
+	int a = Double.compare(length_one, length_two);
+	if (a == 0) {System.out.println("Length_one and Length_two are equal");}
+	else if (a == 0) {System.out.println("Length_one is greater than Length_two");}
+	else {System.out.println("Length_one is less than Length_two");}
  }
 }
 	 class lengthOne {
