@@ -1,3 +1,0 @@
-.idea/
-LineComparisonProblem.iml
-out/
